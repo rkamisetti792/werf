@@ -1,0 +1,6 @@
+redirect_to: https://werf.io
+redirect_delay: 10
+baseurl: /dapp
+site_title: Werf Documentation
+company_name: Flant
+
