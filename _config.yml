@@ -4,3 +4,5 @@ baseurl: /dapp
 site_title: Werf Documentation
 company_name: Flant
 
+
+theme: jekyll-theme-minimal
