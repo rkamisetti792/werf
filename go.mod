@@ -4,7 +4,6 @@ require (
 	cloud.google.com/go v0.34.0
 	github.com/Masterminds/semver v1.4.2
 	github.com/Masterminds/sprig v2.20.0+incompatible
-	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20160518190739-766470278477
 	github.com/bmatcuk/doublestar v1.1.5
 	github.com/containerd/console v0.0.0-20181022165439-0650fd9eeb50
@@ -14,7 +13,6 @@ require (
 	github.com/containerd/go-runc v0.0.0-20180907222934-5a6d9f37cfa3
 	github.com/containerd/typeurl v0.0.0-20180627222232-a93fcdb778cd
 	github.com/docker/cli v0.0.0-20190321234815-f40f9c240ab0
-	github.com/docker/compose-on-kubernetes v0.4.23 // indirect
 	github.com/docker/distribution v2.7.1-0.20190205005809-0d3efadf0154+incompatible
 	github.com/docker/docker v1.14.0-0.20190319215453-e7b5f7dbe98c
 	github.com/docker/docker-credential-helpers v0.6.1
@@ -24,8 +22,6 @@ require (
 	github.com/docker/go-metrics v0.0.0-20181218153428-b84716841b82
 	github.com/docker/go-units v0.3.3
 	github.com/docker/libnetwork v0.0.0-20180913200009-36d3bed0e9f4
-	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7 // indirect
-	github.com/docker/licensing v0.0.0-20190320170819-9781369abdb5 // indirect
 	github.com/docker/spdystream v0.0.0-20160310174837-449fdfce4d96
 	github.com/docker/swarmkit v0.0.0-20180705210007-199cf49cd996
 	github.com/fatih/color v1.7.0
@@ -41,10 +37,9 @@ require (
 	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
 	github.com/google/shlex v0.0.0-20150127133951-6f45313302b9
 	github.com/google/uuid v1.0.0
-	github.com/gorilla/mux v1.7.3 // indirect
 	github.com/gosuri/uitable v0.0.0-20160404203958-36ee7e946282
 	github.com/hashicorp/go-version v1.2.0
-	github.com/mattn/go-shellwords v1.0.5 // indirect
+	github.com/mattn/go-shellwords v1.0.6 // indirect
 	github.com/moby/buildkit v0.4.0
 	github.com/moby/moby v0.7.3-0.20190411110308-fc52433fa677
 	github.com/otiai10/copy v1.0.1
@@ -52,21 +47,16 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
-	github.com/theupdateframework/notary v0.6.1 // indirect
-	github.com/xeipuuv/gojsonpointer v0.0.0-20190809123943-df4f5c81cb3b // indirect
-	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v0.0.0-20170512152554-8a8cc2c7e54a
 	golang.org/x/crypto v0.0.0-20190530122614-20be4c3c3ed5
 	golang.org/x/net v0.0.0-20190603091049-60506f45cf65
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
-	golang.org/x/sys v0.0.0-20190602015325-4c4f7f33c9ed
+	golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a
 	golang.org/x/text v0.3.2
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	gopkg.in/ini.v1 v1.46.0
 	gopkg.in/oleiade/reflections.v1 v1.0.0
-	gopkg.in/src-d/go-billy.v4 v4.3.0 // indirect
-	gopkg.in/src-d/go-git-fixtures.v3 v3.5.0 // indirect
 	gopkg.in/src-d/go-git.v4 v4.11.0
 	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/api v0.0.0-20190409092523-d687e77c8ae9
@@ -87,3 +77,5 @@ require (
 )
 
 replace k8s.io/helm => github.com/flant/helm v0.0.0-20190822111254-2c590df06945
+
+replace github.com/flant/logboek => ../logboek
